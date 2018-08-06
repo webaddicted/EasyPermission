@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.deepaksharma.deepaksharma.easypermissi.MainActivity">
+
+    <Button
+        android:id="@+id/btn_checkCameraPermission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Camera permission" />
+
+
+    <Button
+        android:id="@+id/btn_checkMultiplePermission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Multiple permission" />
+
+    <Button
+        android:id="@+id/btn_requestCameraPermission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Request Camera permission" />
+
+    <Button
+        android:id="@+id/btn_requestMultiplePermission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Request multiple permission" />
+</LinearLayout>
