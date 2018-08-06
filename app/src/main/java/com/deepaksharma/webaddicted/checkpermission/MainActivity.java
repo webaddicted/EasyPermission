@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.btn_requestMultiplePermission).setOnClickListener(this);
     }
 
+
     private void isSinglePermissionGranted() {
         if (EasyPermissions.checkPermission(MainActivity.this, singlePermission))
             showToast("Permission granted.");
