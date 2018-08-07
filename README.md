@@ -22,7 +22,7 @@ Step 2. Add the dependency
 ### Dependency
 
 	dependencies {
-	        implementation 'com.deepaksharma.webaddicted:EasyPermissions:0.0.1'
+	       implementation 'com.github.webaddicted:EasyPermission:0.0.1'
 	}
 
 ### Single permission
