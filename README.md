@@ -67,8 +67,8 @@ Step 2. Add the dependency
 
 Screenshot
 -----------
-![ScreenShot](https://github.com/webaddicted/EasyPermission/blob/master/screenshot/home.png?raw=true)
-![ScreenShot](https://github.com/webaddicted/EasyPermission/blob/master/screenshot/multiple_permission.png?raw=true)
-![ScreenShot](https://github.com/webaddicted/EasyPermission/blob/master/screenshot/denied.png?raw=true)
-![ScreenShot](https://github.com/webaddicted/EasyPermission/blob/master/screenshot/setting_permission.png?raw=true)
+![demo](https://github.com/webaddicted/EasyPermission/blob/master/screenshot/home.png?raw=true)
+![demo](https://github.com/webaddicted/EasyPermission/blob/master/screenshot/multiple_permission.png?raw=true)
+![demo](https://github.com/webaddicted/EasyPermission/blob/master/screenshot/denied.png?raw=true)
+![demo](https://github.com/webaddicted/EasyPermission/blob/master/screenshot/setting_permission.png?raw=true)
 
