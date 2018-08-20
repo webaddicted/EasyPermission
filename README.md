@@ -26,7 +26,7 @@ Step 2. Add the dependency
 	}
 
 ### Single permission
-    EasyPermissions.checkAndRequestPermission(MainActivity.this, Manifest.permission.CAMERA, new                    EasyPermissions.PermissionListener() {
+    EasyPermissions.checkAndRequestPermission(MainActivity.this, Manifest.permission.CAMERA, new EasyPermissions.PermissionListener() {
                 @Override
                 public void onPermissionGranted(List<String> mCustomPermission) {
                     Toast.makeText(MainActivity.this, "Permission granted.", Toast.LENGTH_SHORT).show();
