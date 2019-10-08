@@ -6,6 +6,17 @@ Android Marshmallow includes a new functionality to let users grant or deny perm
 
 If the app can no longer request permission due to "Don't ask again" on permission it will toast a message to grant permission from settings. All the action performed after grant or deny can be customized by overriding method shown below. Custom permission can be checked instead of all permission in androidmanifests file.
 
+
+Android Runtime Permission Library
+==================================
+
+ * Support for "Don't ask again"
+ * Short code.
+ * Can request from any context (Activity, Service, Fragment, etc).
+ * Can check multiple permissions at once.
+ * Quick support.
+ * Open source and fully customizable.
+
 Setup:
 -----
 Add it in your root build.gradle at the end of repositories:
@@ -67,7 +78,7 @@ Step 2. Add the dependency
 
 Screenshot
 -----------
-![demo](https://github.com/webaddicted/EasyPermission/blob/master/screenshot/home.png?raw=true)
+![Screenshot](https://github.com/webaddicted/EasyPermission/blob/master/screenshot/home.png?raw=true)
 ![demo](https://github.com/webaddicted/EasyPermission/blob/master/screenshot/multiple_permission.png?raw=true)
 ![demo](https://github.com/webaddicted/EasyPermission/blob/master/screenshot/denied.png?raw=true)
 ![demo](https://github.com/webaddicted/EasyPermission/blob/master/screenshot/setting_permission.png?raw=true)
